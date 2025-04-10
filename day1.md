@@ -1,4 +1,4 @@
-# CI?CD
+# CI/CD
 
 * One of the major areas of DevOps is building and maintainting Pipelines
 * CI/CD Pipelines are supposed to
