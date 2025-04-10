@@ -1,4 +1,5 @@
 # CI/CD
+18/Mar/2025 
 
 * One of the major areas of DevOps is building and maintainting Pipelines
 * CI/CD Pipelines are supposed to
