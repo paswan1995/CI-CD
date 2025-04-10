@@ -1,4 +1,6 @@
-# Git
+# Git    
+
+20/Mar/2025
 
 * Git has five stages, initially we will be focusing on three areas
 
@@ -133,7 +135,43 @@ git config --global init.defaultBranch main
 
 ```
 
+* link your local repository to the remote repository:
+   * `git remote add origin <repository-URL>`
 
+   * Replace <repository-URL> with the URL of your remote repository (e.g., https://github.com/username/repository.git).
+
+   * 6. Push Your Commit to the Remote Repository
+      * Push your commit to the remote branch (usually main or master):
+         * `git push -u origin main`
+
+* Full Example:
+
+```
+# Initialize a Git repository
+git init
+
+# Create a file and add content
+echo "Hello, Git!" > file.txt
+
+# Stage the file
+git add file.txt
+
+# Commit the changes
+git commit -m "Initial commit"
+
+# Connect to a remote repository (replace <repository-URL> with your repo URL)
+git remote add origin https://github.com/username/repository.git
+
+# Push the commit to the remote repository's main branch
+git push -u origin main
+
+# Alternatively: Rename local branch to main If you are supposed to be on the main branch, rename the master branch:
+git branch -m master main
+
+# Then, push the main branch:
+git push -u origin main
+
+```
 
 # Our current focus areas
 
